@@ -1,0 +1,48 @@
+
+
+html, body{
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#welcome{
+    position: relative;
+    inset: 50% auto auto 50%;
+    border: none;
+    background: rgb(231, 232, 238);
+    overflow: auto;
+    border-radius: 1rem;
+    outline: none;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    width: 445px;
+    box-shadow: rgb(163, 167, 189) 0.2em 0.2em calc(0.4em), rgb(255, 255, 255) calc(-0.2em) calc(-0.2em) calc(0.4em);
+    max-width: 475px;
+    max-height: 650px;
+}
+
+#welcome a {
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    font-weight: bolder;
+    color: rgb(58, 58, 60);
+    float: right;
+}
+
+#green{
+    color: rgb(83, 141, 78);
+    font-weight: bold;
+}
+
+#yellow{
+    color:rgb(181, 159, 59);
+    font-weight: bold;
+}
+
+#grey{
+    color: rgb(58, 58, 60);
+    font-weight: bold;
+}
+
